@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="4dp">
+
+    <!-- 第 1 行：列宽比例 21:34:24:21 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="One,One"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="34"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="One,Two"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="One,Three"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="One,Four"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 第 2 行：列宽比例 21:34:24:21 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Two,One"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="34"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Two,Two"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Two,Three"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Two,Four"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 第 3 行：列宽比例 24:25:27:25 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="24"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Three,One"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Three,Two"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Three,Three"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Three,Four"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- 第 4 行：列宽比例 22:32:25:22 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Four,One"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Four,Two"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Four,Three"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="3dp"
+            android:background="@drawable/bg_grid_cell"
+            android:gravity="center"
+            android:text="Four,Four"
+            android:textColor="#8D8D8D"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

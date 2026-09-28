@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Android 实验二"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/open_task1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务 1：线性布局" />
+
+    <Button
+        android:id="@+id/open_task2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务 2：表格布局" />
+
+    <Button
+        android:id="@+id/open_task3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务 3：计算器" />
+
+    <Button
+        android:id="@+id/open_task4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务 4：订票界面" />
+
+    <Button
+        android:id="@+id/open_task5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="任务 5：待办清单" />
+
+</LinearLayout>
